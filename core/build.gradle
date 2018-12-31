@@ -34,4 +34,4 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
 }
 
-apply from: rootProject.file('release-bintray.gradle')
+//apply from: rootProject.file('release-bintray.gradle')

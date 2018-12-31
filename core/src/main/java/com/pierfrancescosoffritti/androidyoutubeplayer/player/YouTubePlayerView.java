@@ -61,6 +61,11 @@ public class YouTubePlayerView extends FrameLayout implements NetworkReceiver.Ne
         addYouTubePlayerListeners(youTubePlayer);
     }
 
+    @NonNull
+    public WebViewYouTubePlayer getYouTubePlayer() {
+        return youTubePlayer;
+    }
+
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         // if height == wrap content make the view 16:9
